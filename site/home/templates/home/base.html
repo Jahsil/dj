@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePage</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+  <center>
+     <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a class="navbar-brand" href="#">HomePage</a></li>
+          <li><a class="navbar-link" href="#">Admin</a></li>
+          <li><a class="navbar-link" href="#">Other</a></li>
+          <li><a class="navbar-link" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+          <h1>DataFlair Django Tutorials</h1>
+{% block body_block %}
+<h1>Welcome to the Home-Page</h1>
+<h2> search for others/ </h2>
+<h2>we are in the block of home page</h2>
+{% endblock %}
+</center>
+</body>
+</html>
